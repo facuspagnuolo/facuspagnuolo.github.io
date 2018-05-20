@@ -1,0 +1,165 @@
+@font-face {
+ font-family: 'MuseoBlack';
+ src: url('../fonts/MuseoSans_900.otf') format('opentype');
+}
+@font-face {
+ font-family: 'MuseoRegular';
+ src: url('../fonts/MuseoSans_500.otf') format('opentype');
+}
+@font-face {
+ font-family: 'MuseoLight';
+ src: url('../fonts/MuseoSans_300.otf') format('opentype');
+}
+@font-face {
+ font-family: 'MuseoThin';
+ src: url('../fonts/MuseoSans_100.otf') format('opentype');
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+.content-wrapper {
+  background-image: url('../facu.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+  width: calc(100% - 472px);
+  height: 100%;
+  padding: 75px 85px 50px;
+  background-color: black;
+  text-align: right;
+  color: white;
+  overflow-y: scroll;
+}
+.right-content {
+  text-align: right;
+  width: 470px;
+  right: 85px;
+  position: absolute;
+  padding-bottom: 180px;
+}
+.content-wrapper h2 {
+  font-family: 'MuseoBlack', sans-serif;
+  font-size: 27px;
+  max-width: 470px;
+  text-align: right;
+  margin: 0 0 40px 0;
+}
+.content-wrapper p {
+  font-family: 'MuseoRegular', sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 470px;
+  text-align: right;
+}
+.content-wrapper h3 {
+  font-family: 'MuseoThin', sans-serif;
+  font-size: 13px;
+  max-width: 470px;
+  text-align: right;
+  margin-top: 6px;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+}
+.sidebar-wrapper {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background: #2f2a28;
+  color: white!important;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  height: 100%;
+  padding: 75px 85px 50px;
+}
+
+.about {
+  font-family: 'MuseoBlack', sans-serif;
+  max-width: 250px;
+  margin-top: 0px;
+  color: white; 
+  font-size: 36px;
+  line-height: 42px;
+}
+.about-description {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 25px;
+  color: white;
+  font-family: 'MuseoThin', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.contact-btn {
+  background-image: url('../red.png');
+  background-color: #302e2e!important;
+  padding: 15px 65px;
+  border-radius: 100px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'MuseoThin', sans-serif;
+  font-size: 16px;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  background-image: url('../red.png');
+  background-color: black!important;
+}
+.mobile-picture {
+  display: none;
+  margin: auto;
+  margin-top: 34px;
+  width: 70%;
+  max-width: 300px;
+}
+.principal-picture {
+  position: absolute;
+  left: 350px;
+  top: 10%;
+  z-index: 30;
+  height: 80%;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+} 
+.social {
+  width: 189px;
+  height: 95px;
+  margin-bottom: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.social a i {
+  color: white;
+  font-size: 27px;
+}
+.social a i:hover {
+  color: #754b4a;
+}
