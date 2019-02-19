@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 .content-wrapper {
-  background-image: url('../facu.jpg');
+  background-image: url('../background.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
